@@ -20,6 +20,11 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  {
+    rules: {
+      "react/jsx-key": "off",
+    },
+  },
 ];
 
 export default eslintConfig;
